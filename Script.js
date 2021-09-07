@@ -24,3 +24,8 @@ const hitungLuasKeliling = () => {
     Luas + (Luas % 2 == 0 ? " (Genap)" : " (Ganjil)");
   console.log("Luas = " + Luas + (Luas % 2 == 0 ? " (Genap)" : " (Ganjil)"));
 };
+
+function reset() {
+  document.getElementById("panjang").value = "";
+  document.getElementById("lebar").value = "";
+ }
