@@ -1,6 +1,14 @@
 var Panjang, Lebar, Keliling, Luas;
+const fungsiAsyncAwait = async () => {
+  await hitungLuasKeliling();
+  await keterangan();
+}
 
-hitungLuasKeliling = () => {
+const keterangan=()=>{
+  console.log("Hasil perhitungan luas dan keliling dari input yang dimasukan pada panjang dan lebar");
+}
+
+const hitungLuasKeliling = () => {
   Panjang = parseInt(document.getElementById("panjang").value);
   Lebar = parseInt(document.getElementById("lebar").value);
   Keliling = 2 * (Panjang + Lebar);
