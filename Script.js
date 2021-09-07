@@ -1,11 +1,11 @@
 var Panjang, Lebar, Keliling, Luas;
 const fungsiAsyncAwait = async () => {
-  await hitungLuasKeliling();
   await keterangan();
+  await hitungLuasKeliling();
 }
 
 const keterangan=()=>{
-  console.log("Hasil perhitungan luas dan keliling dari input yang dimasukan pada panjang dan lebar");
+  console.log("Hasil perhitungan: ");
 }
 
 const hitungLuasKeliling = () => {
