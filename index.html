@@ -1,18 +1,29 @@
 <!DOCTYPE html">
 <html>
-     <head>
-          <title>Menghitung luas dan keliling segiempat</title>
-          <script src="Script.js"></script>
-     </head>
-     <body>
-          <h1>Menghitung luas dan keliling segiempat</h1>
-          <form>
-               <p>Panjang: <input type="text" id="panjang"></p>
-               <p>Lebar: <input type="text" id="lebar"></p>
-               <p><input type="button" value="Hitung" onclick="fungsiAsyncAwait();"> </p>
-               <p>Luas: <input type="text" id="luas"></p>
-               <p>Keliling: <input type="text" id="keliling"></p>
-               <p><input type="button" value="Reset" onclick="reset();"> </p>
-          </form>
-     </body>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+
+  <head>
+    <title>Menghitung luas dan keliling segiempat</title>
+  </head>
+
+  <body>
+    <h1>Menghitung luas dan keliling segiempat</h1>
+    <h3>Kelompok 38 :</h3>
+    <h3 id="textkelompok"></h3>
+    <script src="Script.js"></script>
+    <form>
+      <p>Panjang: <input type="text" id="panjang" /></p>
+      <p>Lebar: <input type="text" id="lebar" /></p>
+      <p>
+        <input type="button" value="Hitung" onclick="fungsiAsyncAwait();" />
+      </p>
+      <p>Luas: <input type="text" id="luas" /></p>
+      <p>Keliling: <input type="text" id="keliling" /></p>
+      <p><input type="button" value="Reset" onclick="reset();" /></p>
+    </form>
+  </body>
 </html>
