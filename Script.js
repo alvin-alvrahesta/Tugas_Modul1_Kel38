@@ -11,7 +11,6 @@ function getKelompok(item) {
 }
 
 //Fungsi Asynchronous
-var Panjang, Lebar, Keliling, Luas;
 const fungsiAsyncAwait = async () => {
   await keterangan();
   await hitungLuasKeliling();
@@ -22,6 +21,7 @@ const keterangan = () => {
 };
 
 //Menghitung dan Menampilkan Hasil Perhitungan
+var Panjang, Lebar, Keliling, Luas;
 const hitungLuasKeliling = () => {
   Panjang = parseInt(document.getElementById("panjang").value);
   Lebar = parseInt(document.getElementById("lebar").value);
